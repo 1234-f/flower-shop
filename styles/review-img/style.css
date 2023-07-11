@@ -1,0 +1,12 @@
+.feature-flower-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-flower-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
