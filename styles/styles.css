@@ -55,6 +55,21 @@ body {
 }
 
 /* feature flower styles */
+
+.feature-flower-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-flower-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
 .featured-flowers-section {
     margin: 150px 150px;
     display: flex;
@@ -82,7 +97,7 @@ body {
     font-weight: 800;
     align-items: center;
     text-align: center;
-}
+} 
 
 .feature-flower-description {
     color: rgba(39, 39, 39, 0.60);
@@ -96,13 +111,12 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin: 50px;
-    padding: 100px 50px 0px;
+    padding: 100px 20px 0px;
+    height: 460px;
 }
 
 .feature-flower-img {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -111,7 +125,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .featured-img-btm-text {
@@ -137,7 +150,6 @@ body {
 .banner {
     background: rgba(229, 84, 115, 0.05);
     max-height: 700px;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -179,7 +191,6 @@ body {
     margin: 10px;
 }
 
-
 /* instagram section image styles */
 
 .instagram-section {
@@ -187,7 +198,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 75px 0px;
+    margin: 100px 0px;
 }
 
 .instagram-section-title {
@@ -238,7 +249,7 @@ body {
 }
 
 .bottom-banner-text {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .bottom-banner-title {
@@ -280,7 +291,7 @@ body {
 }
 
 .review-header {
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     color: #272727;
     font-size: 70px;
@@ -310,101 +321,28 @@ body {
     margin-left: 210px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* review us section styles */
+#review-us-text{
+    display: block;
+    resize: none;
+    width: 500px; 
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.review-us-btn{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .review-us-span-text{
+    height: 800px;
+    padding: 80px 510px 80px 22px;
+} */
 /* footer styles */
 .footer {
     background-color: #111010;
